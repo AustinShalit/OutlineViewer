@@ -47,6 +47,8 @@ allprojects {
 wpilibVersioning.version.finalizeValue()
 version = wpilibVersioning.version.get()
 
+println version
+
 def outputsFolder = file("$buildDir/allOutputs")
 
 def publishingFromAllOutputs = false
